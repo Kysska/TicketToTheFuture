@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 int currentPercentage = Integer.parseInt(sleepText.getText().toString().replace("%", ""));
                 if(currentPercentage < 100){
-                    int newPercentage = currentPercentage + 10;
+                    int newPercentage = currentPercentage + 5;
                     sleepText.setText(newPercentage + "%");
                 }
             }
